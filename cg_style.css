@@ -1,0 +1,100 @@
+a{
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a:hover{
+    color: red;
+
+}
+.cghome{
+    padding: 10px;
+    background-color: white;
+    width: 40px;
+    border-radius: 10px;
+}
+.cghome:hover{
+    width: 60px;
+    height: 20px;
+}
+header::before{
+    content: " ";
+    background-image: url('/images/cg.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.cgmain{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#box1{
+    width: 67px;
+  background-color: white;
+}
+#box1:hover{
+    width: 77px;
+    
+}
+#box2{
+    width: 67px;
+    background-color: white;
+}
+#box2:hover{
+    width: 77px;
+    
+}
+
+
+#box3{
+    width: 67px;
+    background-color: white;
+}
+#box3:hover{
+    width: 77px;
+    
+}
+
+
+#box4{
+    width: 67px;
+    background-color: white;
+}
+
+#box4:hover{
+    width: 77px;
+    
+}
+
+#box5{
+    width: 67px;
+    background-color: white;
+}
+#box5:hover{
+    width: 77px;
+    
+}
+.clock{
+    color: black;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-family: fantasy;
+    width: 150px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
